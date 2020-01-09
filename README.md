@@ -7,15 +7,15 @@ Tested with ROS Kinetic and ROS Melodic.
 
 # Installation
 
-The following is order in which the packages should be build using `catkin_make`:
-`orbo_drivers`
+The following is the order in which the code in the workspaces should be build using `catkin_make`:
+`drivers_ws`
 `orbo_ws`
-`orbo_simulation`
-`vrep_ros_interface`
+`orbo_simulation_ws`
+`vrep_ros_interface_ws`
 
 Then use `source source_all.bash` in order to source all of the workspaces.
 
-After building the packages in the `vrep_ros_interface` workspace copy `vrep_ros_interface/devel/lib/libv_repExtRos.so` to the directory containing V-REP.
+After building the packages in the `vrep_ros_interface_ws` workspace copy `vrep_ros_interface_ws/devel/lib/libv_repExtRos.so` to the directory containing V-REP.
 
 # Usage
 

@@ -9,8 +9,8 @@
 
 ORBO_DRIVERS_WS=drivers_ws
 ORBO_ROBOT_WS=orbo_ws
-ORBO_SIMULATION_WS=orbo_simulation
-VREP_ROS_INTERFACE_WS=vrep_ros_interface
+ORBO_SIMULATION_WS=orbo_simulation_ws
+VREP_ROS_INTERFACE_WS=vrep_ros_interface_ws
 
 source $ORBO_DRIVERS_WS/devel/setup.bash --extend
 source $ORBO_ROBOT_WS/devel/setup.bash --extend
