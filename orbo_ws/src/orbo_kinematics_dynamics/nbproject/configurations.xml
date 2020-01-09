@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="include">
+        <df name="orbo_kinematics_dynamics">
+          <in>link_data.h</in>
+          <in>orbo_kinematics_dynamics.h</in>
+          <in>orbo_kinematics_dynamics_define.h</in>
+        </df>
+      </df>
+      <df name="src">
+        <in>link_data.cpp</in>
+        <in>orbo_kinematics_dynamics.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+        <buildAnalyzer>false</buildAnalyzer>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../..</buildCommandWorkingDir>
+          <buildCommand>sh -c ". /opt/ros/kinetic/setup.sh; catkin_make"</buildCommand>
+          <cleanCommand>echo clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="include/orbo_kinematics_dynamics/link_data.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/orbo_kinematics_dynamics/orbo_kinematics_dynamics.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/orbo_kinematics_dynamics/orbo_kinematics_dynamics_define.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="src/link_data.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/orbo_kinematics_dynamics.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

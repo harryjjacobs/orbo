@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>	
+
+<launch>
+    
+  
+  <arg name="scene" default="$(find vrep_orbo_simulation)/scene/orbo_empty_world.ttt" />    
+  
+  <arg name="headless" default="0" />
+ 
+  
+  <node name="vrep_orbo_engine" pkg="vrep_orbo_simulation" type="vrep_orbo_engine" args="$(arg scene) $(arg headless)" />
+
+  
+</launch>

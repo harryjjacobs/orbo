@@ -1,0 +1,9 @@
+[submodule "drivers_ws/src/ROBOTIS-Framework-msgs"]
+	path = drivers_ws/src/ROBOTIS-Framework-msgs
+	url = https://github.com/ROBOTIS-GIT/ROBOTIS-Framework-msgs.git
+[submodule "drivers_ws/src/ROBOTIS-Framework"]
+	path = drivers_ws/src/ROBOTIS-Framework
+	url = https://github.com/ROBOTIS-GIT/ROBOTIS-Framework.git
+[submodule "drivers_ws/src/ROBOTIS-Math"]
+	path = drivers_ws/src/ROBOTIS-Math
+	url = https://github.com/ROBOTIS-GIT/ROBOTIS-Math.git

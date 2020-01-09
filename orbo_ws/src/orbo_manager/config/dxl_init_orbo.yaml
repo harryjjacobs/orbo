@@ -1,0 +1,60 @@
+l_hip_pitch:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+l_hip_roll:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+l_hip_yaw:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+l_knee:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+l_ank_pitch:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+l_ank_roll:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+r_hip_pitch:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+r_hip_roll:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+r_hip_yaw:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+r_knee:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+r_ank_pitch:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
+r_ank_roll:
+  position_d_gain: 0
+  position_i_gain: 0
+  position_p_gain: 800
+  return_delay_time: 1
