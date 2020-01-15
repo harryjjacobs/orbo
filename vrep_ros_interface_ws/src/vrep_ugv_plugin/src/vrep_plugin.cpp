@@ -38,7 +38,6 @@
 #include "std_msgs/Float32.h"
 
 #include <iostream>
-#include <opencv2/opencv.hpp>
 
 #define PLUGIN_VERSION 4
 
